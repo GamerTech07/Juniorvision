@@ -1,0 +1,45 @@
+body {
+    background-color: #e3e3e3;
+}
+
+body header {
+    background-color: teal;
+}
+
+body p {
+    font-family:"Britannic Bold";
+}
+
+body header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+}
+
+body header li {
+    float: left;
+}
+
+body header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body header li a:hover {
+    background-color: #111;
+}
+
+body header .active {
+    background-color: #004242;
+}
+
+body h1 {
+    font-family: Britannic Bold;
+    font-size: 50px;
+    text-align: center;
+}
